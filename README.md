@@ -236,6 +236,34 @@ In this study, we present a comprehensive exploration of stopword extraction tec
 9. [exp4_100/graph/*.png](https://github.com/ye-kyaw-thu/myStopWord/tree/main/exp4_100/graph)   
    These PNG files contain graphs comparing the extracted stopwords with Zipf’s law. Some of these graphs are plotted using linear scales, while others use logarithmic scales.  
 
+## Command-line Options 
+
+```
+$ python ./extract_stopword.py --help
+usage: extract_stopword.py [-h]
+                           [--methods {tf,normalised_tf,idf,normalised_idf,tf_idf,term_based_random_sampling,pmi,entropy,variance,cooccurrence_network,lm,word2vec,word2vec_frequency,fasttext,fasttext_frequency} [{tf,normalised_tf,idf,normalised_idf,tf_idf,term_based_random_sampling,pmi,entropy,variance,cooccurrence_network,lm,word2vec,word2vec_frequency,fasttext,fasttext_frequency} ...]]
+                           [--frequency] [-n NUMBER]
+                           corpus_filename output_filename
+
+Retrieve the stopword list from a given corpus.
+
+positional arguments:
+  corpus_filename       Path to the input corpus file.
+  output_filename       Path to the output stopword list file.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --methods {tf,normalised_tf,idf,normalised_idf,tf_idf,term_based_random_sampling,pmi,entropy,variance,cooccurrence_network,lm,word2vec,word2vec_frequency,fasttext,fasttext_frequency} [{tf,normalised_tf,idf,normalised_idf,tf_idf,term_based_random_sampling,pmi,entropy,variance,cooccurrence_network,lm,word2vec,word2vec_frequency,fasttext,fasttext_frequency} ...]
+                        Methods to use for stopword retrieval. Can be one or multiple
+                        for hybrid approach.
+  --frequency           If set, outputs the stopword followed by its frequency (or
+                        method-based value).
+  -n NUMBER, --number NUMBER
+                        Number of stopwords to extract. Default is 100.
+```
+
+Before using this Python script, make sure you have the necessary libraries installed on your system, including argparse, collections, math (built-in), random (built-in), networkx, gensim, fasttext, and numpy. You can easily install these libraries using `pip install`, which is the recommended method to ensure all dependencies are met. 
+
 ## Note
 
 Please be aware that in this repository, we have uploaded the source codes (Python and shell scripts), extracted stopword files, various note files, and graphs. However, we are not sharing our in-house corpus, which was used for this experiment. We are currently working on cleaning it up, and we plan to release the entire corpus once the process is complete.
