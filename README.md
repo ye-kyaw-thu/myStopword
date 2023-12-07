@@ -235,7 +235,11 @@ In this study, we present a comprehensive exploration of stopword extraction tec
    These files contain the top 100 Burmese stopwords extracted using both baseline and our two newly proposed methods.
 9. [exp4_100/graph/*.png](https://github.com/ye-kyaw-thu/myStopWord/tree/main/exp4_100/graph)   
    These PNG files contain graphs comparing the extracted stopwords with Zipf’s law. Some of these graphs are plotted using linear scales, while others use logarithmic scales.  
-   
+
+## Note
+
+Please be aware that in this repository, we have uploaded the source codes (Python and shell scripts), extracted stopword files, various note files, and graphs. However, we are not sharing our in-house corpus, which was used for this experiment. We are currently working on cleaning it up, and we plan to release the entire corpus once the process is complete.
+
 ## Citation
 
 If you intend to utilize any code snippets or utilize the extracted stopwords in your research, we kindly request that you acknowledge and cite the following paper: 
