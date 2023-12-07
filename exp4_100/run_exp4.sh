@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## Written by Ye Kyaw Thu, LU Lab., Myanmar
+
 # Define the methods in an array
 methods=("tf" "normalised_tf" "term_based_random_sampling" "entropy" "cooccurrence_network" "lm" "word2vec_frequency" "fasttext_frequency")
 
