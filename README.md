@@ -7,17 +7,17 @@ In this study, we present a comprehensive exploration of stopword extraction tec
 
 ## File Information
 
-1. [run_exp4.sh](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/run_exp4.sh)
+1. [run_exp4.sh](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/run_exp4.sh)  
    The shell script I used for experiment number 4, which extracts only 100 stopwords.)
-2. [extract_stopword.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/extract_stopword.py)
+2. [extract_stopword.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/extract_stopword.py)  
    Python code for extracting Burmese stopwords using various approaches
-3. [zipfs_fit.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/zipfs_fit.py)
+3. [zipfs_fit.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/zipfs_fit.py)  
    Python code for generating graphs
-4. [stopword_talk.pdf](https://github.com/ye-kyaw-thu/myStopWord/blob/main/slide/stopword_talk.pdf)
+4. [stopword_talk.pdf](https://github.com/ye-kyaw-thu/myStopWord/blob/main/slide/stopword_talk.pdf)  
    Presentation slide that I used at the iSAI-NLP 2023 conference.
-5. [pos_tagger.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/postag/pos_tagger.py)
+5. [pos_tagger.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/postag/pos_tagger.py)  
    Python code for creating a POS-tag dictionary using the myPOS ver.3 corpus and performing rough POS tagging on extracted Burmese stopwords.  
-6. [extract_highest_uniq_pos_ver2.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/postag_freq/extract_highest_uniq_pos_ver2.py)
+6. [extract_highest_uniq_pos_ver2.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/postag_freq/extract_highest_uniq_pos_ver2.py)  
    Python code for extracting the unique highest-ranked POS tags from the input stopword file.
    
 ## Citation
