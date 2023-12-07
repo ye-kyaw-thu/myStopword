@@ -232,7 +232,9 @@ In this study, we present a comprehensive exploration of stopword extraction tec
 7. [zipfs_graph4all.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/graph/zipfs_graph4all.py)   
    Python code for drawing Zipf's Law graphs.  
 8. [exp4_100/stopwords*.txt](https://github.com/ye-kyaw-thu/myStopWord/tree/main/exp4_100)  
-   These files contain the top 100 Burmese stopwords extracted using both baseline and our two newly proposed methods.  
+   These files contain the top 100 Burmese stopwords extracted using both baseline and our two newly proposed methods.
+9. [exp4_100/graph/*.png](https://github.com/ye-kyaw-thu/myStopWord/tree/main/exp4_100/graph)   
+   These PNG files contain graphs comparing the extracted stopwords with Zipf’s law. Some of these graphs are plotted using linear scales, while others use logarithmic scales.  
    
 ## Citation
 
