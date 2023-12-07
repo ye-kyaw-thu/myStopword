@@ -1,0 +1,10 @@
+part = 37
+ppm = 16
+v = 16
+n = 8
+adj = 6
+adv = 5
+pron = 4
+conj = 3
+tn = 2
+num = 2

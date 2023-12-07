@@ -1,0 +1,8 @@
+part = 45
+ppm = 20
+v = 12
+conj = 8
+n = 7
+pron = 4
+tn = 2
+adj = 2

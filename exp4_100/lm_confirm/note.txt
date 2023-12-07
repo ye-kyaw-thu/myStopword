@@ -1,0 +1,13 @@
+# Note for lm x-gram confirmation
+
+I updated the n value (1 to 5) in the program and then run as follows:
+
+time python extract_stopword.py ./segmentation-data-updated2.cleaned 1gram_300_stopwords.txt --method lm --frequency --number 300
+
+time python extract_stopword.py ./segmentation-data-updated2.cleaned 2gram_300_stopwords.txt --method lm --frequency --number 300
+
+time python extract_stopword.py ./segmentation-data-updated2.cleaned 3gram_300_stopwords.txt --method lm --frequency --number 300
+
+time python extract_stopword.py ./segmentation-data-updated2.cleaned 4gram_300_stopwords.txt --method lm --frequency --number 300
+
+time python extract_stopword.py ./segmentation-data-updated2.cleaned 5gram_300_stopwords.txt --method lm --frequency --number 300
