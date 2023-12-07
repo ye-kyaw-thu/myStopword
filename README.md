@@ -228,9 +228,11 @@ In this study, we present a comprehensive exploration of stopword extraction tec
 5. [pos_tagger.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/postag/pos_tagger.py)  
    Python code for creating a POS-tag dictionary using the myPOS ver.3 corpus and performing rough POS tagging on extracted Burmese stopwords.  
 6. [extract_highest_uniq_pos_ver2.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/postag_freq/extract_highest_uniq_pos_ver2.py)  
-   Python code for extracting the unique highest-ranked POS tags from the input stopword file.
+   Python code for extracting the unique highest-ranked POS tags from the input stopword file.  
 7. [zipfs_graph4all.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/graph/zipfs_graph4all.py)   
-   Python code for drawing Zipf's Law graphs.
+   Python code for drawing Zipf's Law graphs.  
+8. [exp4_100/stopwords*.txt](https://github.com/ye-kyaw-thu/myStopWord/tree/main/exp4_100)  
+   These files contain the top 100 Burmese stopwords extracted using both baseline and our two newly proposed methods.  
    
 ## Citation
 
