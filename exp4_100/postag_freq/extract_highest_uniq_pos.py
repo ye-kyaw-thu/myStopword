@@ -1,3 +1,6 @@
+## Written by Ye Kyaw Thu, LU Lab., Myanmar
+## Version 1
+
 import argparse
 from collections import defaultdict
 
