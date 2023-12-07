@@ -1,4 +1,4 @@
-# myStopWord
+# myStopword
 Stopword extraction for Burmese.
 
 ## Project Overview
