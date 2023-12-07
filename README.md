@@ -1,5 +1,5 @@
 # myStopWord
-Stop word extraction for Burmese.
+Stopword extraction for Burmese.
 
 ## Project Overview
 
@@ -15,6 +15,10 @@ In this study, we present a comprehensive exploration of stopword extraction tec
    Python code for generating graphs
 4. [stopword_talk.pdf](https://github.com/ye-kyaw-thu/myStopWord/blob/main/slide/stopword_talk.pdf)
    Presentation slide that I used at the iSAI-NLP 2023 conference.
+5. [pos_tagger.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/postag/pos_tagger.py)
+   Python code for creating a POS-tag dictionary using the myPOS ver.3 corpus and performing rough POS tagging on extracted Burmese stopwords.  
+6. [extract_highest_uniq_pos_ver2.py](https://github.com/ye-kyaw-thu/myStopWord/blob/main/exp4_100/postag_freq/extract_highest_uniq_pos_ver2.py)
+   Python code for extracting the unique highest-ranked POS tags from the input stopword file.
    
 ## Citation
 
